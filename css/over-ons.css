@@ -1,0 +1,129 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+/* IDEA: algemeen */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* IDEA: header */
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: yellow 3px solid;
+}
+header h1 a{
+  font-size: 1em;
+  text-transform: inherit;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: yellow;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: darkgray;
+  font-weight: bold;
+}
+
+/* IDEA: Sidebar van de twee talen */
+.sidebar{
+  display: flex;
+}
+
+.sidebar ul li{
+  list-style: none;
+  margin: 15px;
+  border: 1px solid darkgray;
+  padding: 10px;
+  font-size: 100%;
+}
+
+#tweetalen {
+    position: absolute;
+    top: 18%;
+    left: 82%;
+    min-width: 11.7%;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidebar ul li a:hover{
+  font-weight: bold;
+}
+/* IDEA: over ons segment */
+.intro {
+  width: 60%;
+  margin: 100px auto 0px auto;
+  border-right: 1px solid darkgray;
+  padding: 10px 80px 80px 80px;
+}
+
+.intro h3{
+  margin-bottom: 10px;
+}
+
+/* IDEA: img picture */
+#picture{
+  border-radius: 200%;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  left: 160px;
+}
+
+/* IDEA: footer */
+footer{
+  position: relative;
+  top: 50px;
+  padding:20px;
+  margin-top: 350px;
+  color: black;
+  background-color: yellow;
+  border-top: 12px #35424a solid;
+  text-align: center;
+}

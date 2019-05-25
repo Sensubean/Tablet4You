@@ -1,0 +1,140 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* IDEA: header */
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: yellow 3px solid;
+}
+header h1 a{
+  font-size: 1em;
+  text-transform: inherit;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: yellow;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: darkgray;
+  font-weight: bold;
+}
+
+/* IDEA: algemeen */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* FILTER  */
+.list-merken{
+  margin-bottom: 35px;
+}
+
+.filter-lists{
+  float: left;
+  width: 15%;
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+
+.filter-lists, .filter-lists ul {
+    list-style: none;
+}
+#filter-type{
+    font-weight: bold;
+}
+
+.product-row{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 5%;
+}
+
+.column{
+  margin: 20px;
+  width: 100%;
+}
+.product-detail img{
+      max-width:250px;
+    max-height: 150px;
+}
+.product-image{
+    max-width:300px;
+    max-height: 200px;
+    padding:5px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.product-image:hover{
+    box-shadow: 0px 0px 2px 0px #ff0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.product-image {
+    display:none;
+    margin: 35px;
+}
+
+
+/* IDEA: Artikelen */
+.column{
+  float: left;
+  max-width: 25%;
+}
+
+footer{
+  padding:20px;
+  margin-top: 350px;
+  color: black;
+  background-color: yellow;
+  border-top: 12px #35424a solid;
+  text-align: center;
+}

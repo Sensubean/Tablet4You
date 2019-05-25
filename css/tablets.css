@@ -1,0 +1,132 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+/* IDEA: algemeen */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  margin: 50px 0 0 200px;
+}
+
+/* IDEA: header */
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: yellow 3px solid;
+}
+header h1 a{
+  font-size: 1em;
+  text-transform: inherit;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: yellow;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: darkgray;
+  font-weight: bold;
+}
+
+/* IDEA: product img */
+.product-detail img{
+  width: 300px;
+  height: auto;
+  border-right: 1px solid darkgray;
+  padding-right: 75px;
+}
+
+/* IDEA: product omschrijving */
+.product-description-detail{
+text-align: left;
+}
+
+.product-detail .prijs {
+    font-size: 3em;
+    position: absolute;
+    left: 86%;
+    top: 85%;
+}
+
+.product-detail button {
+    padding: 10px 50px;
+    border-style: none;
+    color: yellow;
+    font-size: 1.3em;
+    background-color: #35424a;
+    position: absolute;
+    left: 85%;
+    top: 80%;
+}
+
+
+.product-description {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 26%;
+    padding-bottom: 130px;
+    border-bottom: 1px solid darkgray;
+    margin-left: 2%;
+}
+
+/* IDEA: footer */
+footer{
+  position: relative;
+  top: 50px;
+  padding:20px;
+  margin-top: 350px;
+  color: black;
+  background-color: yellow;
+  border-top: 12px #35424a solid;
+  text-align: center;
+}
+
+button:hover{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}

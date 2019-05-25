@@ -1,0 +1,112 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+/* IDEA: algemeen */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* IDEA: header */
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: yellow 3px solid;
+}
+header h1 a{
+  font-size: 1em;
+  text-transform: inherit;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: yellow;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: darkgray;
+  font-weight: bold;
+}
+
+.container-contact{
+  overflow: hidden;
+  margin-left: 5%;
+}
+/* IDEA: maps banner */
+.maps{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 875px;
+  padding-top: 10px;
+  background-color: #35424a;
+  border-top: 3px solid yellow;
+}
+
+/* IDEA: contact form */
+.contact-form form{
+  margin: 100px;
+}
+
+/* IDEA: bedrijfs informatie */
+#bedrijf-info{
+  position: relative;
+  bottom: 395px;
+  left: 625px;
+  border-left: 1px solid darkgray;
+  padding-left: 20px;
+}
+
+#bedrijf-info table tr td{
+  text-align: left;
+  margin-right: 50px;
+}
+
+/* IDEA: footer */
+footer{
+  position: relative;
+  padding:20px;
+  color: black;
+  background-color: yellow;
+  border-top: 12px #35424a solid;
+  text-align: center;
+}
